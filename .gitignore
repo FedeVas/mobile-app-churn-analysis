@@ -1,0 +1,56 @@
+# --- OS trash ---
+.DS_Store
+Thumbs.db
+
+# --- IDE / editors ---
+.idea/
+.vscode/
+*.code-workspace
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+.dist/
+build/
+develop-eggs/
+pip-wheel-metadata/
+.installed.cfg
+
+# --- Virtual envs ---
+venv/
+.env/
+.venv/
+env/
+env.bak/
+venv.bak/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Logs / temp ---
+*.log
+*.tmp
+*.swp
+
+# --- Data (важно для NDA) ---
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# --- Models / artifacts ---
+#models/*
+!models/.gitkeep
+
+# --- Reports heavy outputs ---
+#reports/figures/*
+!reports/figures/.gitkeep
+
+# --- System ---
+*.bak
