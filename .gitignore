@@ -51,6 +51,7 @@ data/processed/*
 # --- Reports heavy outputs ---
 #reports/figures/*
 !reports/figures/.gitkeep
+*.zip
 
 # --- System ---
 *.bak
