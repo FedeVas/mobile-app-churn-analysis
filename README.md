@@ -10,7 +10,7 @@ mobile-app-churn-analysis/
 ├─ .gitignore
 │
 ├─ data/
-│  ├─ raw/          # исходные csv/parquet, НЕ коммитить крупные данные
+│  ├─ raw/          # исходные csv/parquet
 │  └─ processed/    # очищенные и агрегированные данные (user-level, features)
 │
 ├─ notebooks/
@@ -50,7 +50,7 @@ mobile-app-churn-analysis/
 2. `notebooks/01_eda_events.ipynb` — EDA по событиям.
 3. `notebooks/02_user_features_churn_label.ipynb` — построение фич и метки churn_30d.
 4. `notebooks/03_churn_modeling.ipynb` — модели прогнозирования оттока.
-5. `notebooks/04_behavior_clustering.ipynb` — (коллега) кластеризация пользователей по поведению.
+5. `notebooks/04_behavior_clustering.ipynb` — кластеризация пользователей по поведению.
 
 ## 3. Как запустить
 
